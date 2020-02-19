@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 
 export default class SwipeableList extends Component {
     render() {
-        const ( children ) = this.props
+        const { children } = this.props
         return <div className='List'>{children}</div>
     }
 }
